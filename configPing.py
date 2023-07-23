@@ -1,6 +1,6 @@
 import pygame.mixer
 from pygame import mixer, mixer_music
-
+#sounds
 mixer.init()
 sound1 = pygame.mixer.Sound("sounds/2.mp3")
 sound2 = pygame.mixer.Sound("sounds/3.mp3")
