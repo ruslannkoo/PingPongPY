@@ -2,10 +2,10 @@ import pygame.mixer
 from pygame import mixer, mixer_music
 
 mixer.init()
-sound1 = pygame.mixer.Sound("2.mp3")
-sound2 = pygame.mixer.Sound("3.mp3")
-soundbg = pygame.mixer.Sound("bc.mp3")
-soundgo = pygame.mixer.Sound("piy.mp3")
+sound1 = pygame.mixer.Sound("sounds/2.mp3")
+sound2 = pygame.mixer.Sound("sounds/3.mp3")
+soundbg = pygame.mixer.Sound("sounds/bc.mp3")
+soundgo = pygame.mixer.Sound("sounds/piy.mp3")
 
 
 from win32api import GetSystemMetrics
